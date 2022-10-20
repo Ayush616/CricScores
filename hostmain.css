@@ -1,0 +1,70 @@
+body { 
+  background: url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container{
+/*    background-color: rgba(20,21,24, 0.5);*/
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+#tform, #pform, #schedform{
+/*    background-color: rgba(20,21,24, 0.5);*/
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.addedTeams{
+    float: right;
+    right: 0;
+}
+
+.scards{
+    background: rgba(245,245,245, 0.8);
+/*    padding: 10px;*/
+/*    width: auto;*/
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px #888888;
+/*    margin: 10px;*/
+}
+
+ .navbar-nav > li{
+          padding-left:5px;
+          padding-right:5px;
+        margin-bottom: -10px;
+        }
+        
+        .navbar-nav > li{
+          margin-left: 5px;
+          margin-right:5px;
+        }
+        
+    .navbar {
+        -webkit-box-shadow: 0 8px 6px -6px #999;
+        -moz-box-shadow: 0 8px 6px -6px #999;
+        box-shadow: 0 8px 6px -6px #999;
+
+        /* the rest of your styling */
+    }
+       
+    #current{
+            color: purple;
+            border-bottom: 2px solid purple;
+        }
+
+.custom-container{
+    margin-top: -18px;
+}
+
+#navigator button{
+    border-right: 2px solid;
+    border-left: 2px solid;
+    border-top: 2px solid;
+    border-bottom: 0.5px solid;
+}
+

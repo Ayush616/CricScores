@@ -1,0 +1,82 @@
+    
+    .navbar-nav > li{
+        padding-left:5px;
+        padding-right:5px;
+      margin-bottom: -10px;
+      }
+      
+      .navbar-nav > li{
+        margin-left: 5px;
+        margin-right:5px;
+      }
+      
+  .navbar {
+      -webkit-box-shadow: 0 8px 6px -6px #999;
+      -moz-box-shadow: 0 8px 6px -6px #999;
+      box-shadow: 0 8px 6px -6px #999;
+
+      /* the rest of your styling */
+  }
+     
+  #current{
+          color: purple;
+          border-bottom: 2px solid purple;
+      }
+  .scards{
+  background: rgba(245,245,245, 0.8);
+/*    padding: 10px;*/
+/*    width: auto;*/
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px #888888;
+/*    margin: 10px;*/
+}
+  body { 
+background: url(bgh.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#mini-scorecard{
+    width:60%;
+    /* border: 1px solid black; */
+}
+
+#mini-scorecard table thead{
+    line-height: 1px;
+    border: 0.5px solid black;
+}
+
+.commentary{
+    width: 70%;
+    /* border: 2px solid red; */
+    margin-right: auto;
+    float: left;
+}
+
+.overSummary{
+    width: 80%;
+    padding:5px;
+    font-size: small;
+    border-radius: 2px;;
+}
+
+.overSummary .r1{
+    background: rgb(108,117,125,0.4);
+}
+
+.overSummary .r2{
+    background: rgb(108,117,125,0.6);
+}
+
+.totalRuns{
+    font-family:candara;
+}
+
+.domine{
+    font-family: 'Domine', serif;
+}
+.slabo{
+    font-family: 'Slabo', serif
+}
